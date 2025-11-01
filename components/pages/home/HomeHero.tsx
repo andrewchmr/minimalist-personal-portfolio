@@ -8,8 +8,8 @@ export function HomeHero() {
     <section>
       <Image
         className="mb-4 size-11 rounded-full"
-        src="/avatar.png"
-        alt="Andrei Hudovich"
+        src="/avatar.jpg"
+        alt="Andrew Chemerynskiy"
         width={44}
         height={44}
         draggable={false}
@@ -17,13 +17,16 @@ export function HomeHero() {
 
       <h1 className="mb-4 font-sans font-semibold text-[1.375rem] leading-7 tracking-[0.02em]">
         Hey, I&apos;m{' '}
-        <span className="border-b-[0.09375rem] border-current text-accent">Andrei Hudovich</span>!
+        <span className="border-b-[0.09375rem] border-current text-accent">
+          Andrew Chemerynskiy
+        </span>
+        !
       </h1>
 
       <div className="mb-5 text-md leading-[1.75] space-y-1.75">
         <p>
           <span className="sm:inline-block sm:mb-1.75">
-            A freelance full-stack engineer based in Wroclaw,{' '}
+            Frontend-focused Full Stack Engineer based in Wroclaw,{' '}
             <span className="sm:hidden">Poland. </span>
             <span className="hidden sm:inline-flex sm:items-center sm:gap-1.5">
               Poland

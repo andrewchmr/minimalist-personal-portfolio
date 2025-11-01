@@ -1,6 +1,6 @@
-import { IconHugeMicOff02 } from '@/components/icons/huge/IconHugeMicOff02'
-import { LogoProjectBlueskyMeter } from '@/components/logos/projects/LogoProjectBlueskyMeter'
-import { LogoProjectListingCat } from '@/components/logos/projects/LogoProjectListingCat'
+import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
+import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
+import { LogoSleepCalculator } from '@/components/logos/projects/LogoSleepCalculator'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -16,24 +16,31 @@ interface Project {
 
 const projects: Array<Project> = [
   {
-    name: 'Project Y',
-    description: 'My new project that I work on in stealth mode for now.',
+    name: 'ExtReviewBot',
+    description: 'Browser extension review tracking & analytics.',
     status: 'active',
-    icon: <IconHugeMicOff02 className="fill-zinc-600" />,
+    icon: <LogoProjectExtReviewBot className="-ml-0.5" />,
+    link: links.projects.extreviewbot,
   },
   {
-    name: 'Listing Cat',
-    description: 'Marketing database for startups and indie hackers.',
+    name: 'Kavalerka.pl',
+    description: 'Real estate platform for studio apartments.',
     status: 'active',
-    icon: <LogoProjectListingCat />,
-    link: links.projects.listingcat,
+    icon: <LogoKavalerka />,
+    link: links.projects.kavalerka,
   },
   {
-    name: 'Bluesky Meter',
-    description: 'Realtime analytics for Bluesky social network.',
+    name: 'Sleep Calculator',
+    description: 'Find out the perfect bedtime or wake up time to rise feeling energized.',
+    status: 'active',
+    icon: <LogoSleepCalculator className="rounded-sm" />,
+    link: links.projects.sleepcalculator,
+  },
+  {
+    name: 'InGastro.pl',
+    description: 'Job board for finding hospitality jobs in Poland.',
     status: 'sold',
-    icon: <LogoProjectBlueskyMeter />,
-    link: links.projects.blueskymeter,
+    icon: <div className="size-4 bg-[#FDB71C] rounded-sm p-1" />,
   },
 ]
 
@@ -41,7 +48,7 @@ export function HomeProjects() {
   return (
     <section className="@container/projects">
       <SectionHeader
-        heading="Projects"
+        heading="Personal Projects"
         text="These are my personal projects, both past and ongoing:"
       />
 

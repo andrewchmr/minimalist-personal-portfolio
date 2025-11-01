@@ -1,8 +1,6 @@
 import '@/app/globals.css'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { env } from '@/env'
-import { Footer } from '@/components/layout/Footer'
-import { Header } from '@/components/layout/Header'
 import type { Metadata } from 'next'
 
 const geist = Geist({
@@ -25,9 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body
         className={`${geist.variable} ${geistMono.variable} px-4 h-full font-mono text-md text-primary antialiased sm:px-8`}
       >
-        <Header />
         <main>{children}</main>
-        <Footer />
       </body>
     </html>
   )

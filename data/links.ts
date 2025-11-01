@@ -1,16 +1,13 @@
 export const links = {
-  email: 'andrei@hudovich.com',
-  calcom: 'https://cal.com/hudovich',
-  source: 'https://github.com/ahudovich/hudovich.com',
+  email: 'andrewchmr@hey.com',
+  calcom: 'https://cal.com/andrewchmr',
   projects: {
-    listingcat: 'https://www.listingcat.com',
-    blueskymeter: 'https://blueskymeter.com',
+    kavalerka: 'https://kavalerka.pl',
+    extreviewbot: 'https://extreviewbot.com',
+    sleepcalculator: 'https://kalkulatorsnu.com.pl',
   },
   social: {
-    x: 'https://x.com/ahudovich',
-    threads: 'https://www.threads.com/@ahudovich',
-    bluesky: 'https://bsky.app/profile/hudovich.com',
-    linkedin: 'https://www.linkedin.com/in/ahudovich/',
-    substack: 'https://substack.com/@ahudovich',
+    x: 'https://x.com/andrewchmr',
+    linkedin: 'https://www.linkedin.com/in/andriy-chemerynskiy/',
   },
 }

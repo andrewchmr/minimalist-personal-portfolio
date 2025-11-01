@@ -1,8 +1,5 @@
-import { IconHugeBluesky } from '@/components/icons/huge/IconHugeBluesky'
-import { IconHugeBookmark01 } from '@/components/icons/huge/IconHugeBookmark01'
 import { IconHugeLinkedIn01 } from '@/components/icons/huge/IconHugeLinkedIn01'
 import { IconHugeNewTwitter } from '@/components/icons/huge/IconHugeNewTwitter'
-import { IconHugeThreads } from '@/components/icons/huge/IconHugeThreads'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
 
@@ -14,28 +11,10 @@ const socialLinks = [
     fill: 'fill-primary',
   },
   {
-    label: 'Threads',
-    icon: IconHugeThreads,
-    href: links.social.threads,
-    fill: 'fill-primary',
-  },
-  {
-    label: 'Bluesky',
-    icon: IconHugeBluesky,
-    href: links.social.bluesky,
-    fill: 'fill-[#0085dd]',
-  },
-  {
     label: 'LinkedIn',
     icon: IconHugeLinkedIn01,
     href: links.social.linkedin,
     fill: 'fill-[#0a66c2]',
-  },
-  {
-    label: 'Substack',
-    icon: IconHugeBookmark01,
-    href: links.social.substack,
-    fill: 'fill-[#fe6a09]',
   },
 ]
 

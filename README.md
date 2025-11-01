@@ -5,25 +5,20 @@
   </div>
 
   <h3>
-    <a href="https://hudovich.com">hudovich.com</a>
+    <a href="https://hudovich.com">andrewchmr.com</a>
   </h3>
 
   <p>
-    Personal website of Andrei Hudovich
+    Personal website of Andrew Chemerynskiy
   </p>
 
   <p>
-    <a href="https://github.com/ahudovich">GitHub</a>
+    <a href="https://github.com/andrewchmr">GitHub</a>
     &middot;
-    <a href="https://x.com/ahudovich">X/Twitter</a>
+    <a href="https://x.com/andrewchmr">X/Twitter</a>
     &middot;
-    <a href="https://www.threads.com/@ahudovich">Threads</a>
+    <a href="https://www.linkedin.com/in/andriy-chemerynskiy/">LinkedIn</a>
     &middot;
-    <a href="https://bsky.app/profile/hudovich.com">Bluesky</a>
-    &middot;
-    <a href="https://www.linkedin.com/in/ahudovich/">LinkedIn</a>
-    &middot;
-    <a href="https://substack.com/@ahudovich">Substack</a>
   </p>
 </div>
 
