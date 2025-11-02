@@ -1,3 +1,4 @@
+import { HomeBlog } from '@/components/pages/home/HomeBlog'
 import { HomeContact } from '@/components/pages/home/HomeContact'
 import { HomeHero } from '@/components/pages/home/HomeHero'
 import { HomeProjects } from '@/components/pages/home/HomeProjects'
@@ -21,6 +22,7 @@ export default function Page() {
       <HomeTechStack />
       <HomeWorkExperience />
       <HomeProjects />
+      <HomeBlog />
       <HomeSocials />
       <HomeContact />
     </div>
