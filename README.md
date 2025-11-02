@@ -5,7 +5,7 @@
   </div>
 
   <h3>
-    <a href="https://hudovich.com">andrewchmr.com</a>
+    <a href="https://andrewchmr.com">andrewchmr.com</a>
   </h3>
 
   <p>
@@ -31,8 +31,3 @@
 * [React](https://react.dev)
 * [Tailwindcss](https://tailwindcss.com)
 * [Radix](https://www.radix-ui.com)
-
-## License
-
-This project is [MIT licensed](https://github.com/ahudovich/hudovich.com/blob/main/LICENSE).
-
