@@ -21,10 +21,10 @@ const workExperience: Array<WorkExperience> = [
       'NordPass is a secure password manager that auto-fills logins and forms and lets you access it all from anywhere.',
     link: 'https://nordpass.com/',
     responsibilities: [
-      'Building and maintaining the web application',
-      'Implementing new features and improving user experience',
-      'Working with React and modern frontend technologies',
+      'Building and maintaining NordPass',
+      'Identifying key product expansion opportunities and building PoCs',
       'Collaborating with cross-functional teams',
+      'Conducting technical interviews',
     ],
     technologies: ['React', 'TypeScript', 'Electron', 'Redux', 'Tailwind', 'Storybook'],
   },
@@ -38,9 +38,10 @@ const workExperience: Array<WorkExperience> = [
       'Developed and maintained the web application',
       'Implemented encryption features and security protocols',
       'Optimized application performance',
-      'Collaborated with backend team on API integration',
+      'Conducting technical interviews',
+      'Training interns and junior engineers',
     ],
-    technologies: ['React', 'TypeScript', 'Redux'],
+    technologies: ['React', 'TypeScript', 'Redux', 'TanStack Query', 'MUI', 'Storybook'],
   },
   {
     company: 'Centra',
@@ -50,11 +51,10 @@ const workExperience: Array<WorkExperience> = [
     link: 'https://centra.com/',
     responsibilities: [
       'Built wholesale features for the platform',
-      'Developed responsive user interfaces',
-      'Worked with React and TypeScript',
-      'Integrated with REST APIs',
+      'Conducting technical interviews',
+      'Training interns and junior engineers',
     ],
-    technologies: ['React', 'TypeScript', 'Redux', 'GraphQL', 'Styled Components'],
+    technologies: ['React', 'Next.js', 'TypeScript', 'Redux', 'GraphQL', 'RxJS'],
   },
   {
     company: 'blue veery GmbH',
@@ -63,12 +63,11 @@ const workExperience: Array<WorkExperience> = [
     description: 'Worked on various client projects as a fullstack developer.',
     link: 'https://blue-veery.com/',
     responsibilities: [
-      'Developed web applications using React and Node.js',
-      'Built features for multiple clients including Purtel, AMS Online, and Meta-Level',
-      'Implemented payment integration with Secupay',
+      'Built features for clients including Purtel, AMS Online, and Meta-Level',
+      'Implemented Smart Checkout for Secupay',
       'Worked with pharmaceutical industry clients like Roche',
     ],
-    technologies: ['React', 'Node.js', 'TypeScript', 'Express', 'PostgreSQL', 'Docker'],
+    technologies: ['React', 'React Native', 'TypeScript', 'MUI', 'PostgreSQL', 'Docker'],
   },
 ]
 
