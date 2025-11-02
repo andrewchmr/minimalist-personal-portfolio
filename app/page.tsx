@@ -3,6 +3,7 @@ import { HomeHero } from '@/components/pages/home/HomeHero'
 import { HomeProjects } from '@/components/pages/home/HomeProjects'
 import { HomeSocials } from '@/components/pages/home/HomeSocials'
 import { HomeTechStack } from '@/components/pages/home/HomeTechStack'
+import { HomeWorkExperience } from '@/components/pages/home/HomeWorkExperience'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -15,9 +16,10 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <div className="mx-auto pt-6 pb-12 max-w-[40rem] space-y-12 sm:py-10">
+    <div className="mx-auto pt-6 pb-12 max-w-160 space-y-12 sm:py-10">
       <HomeHero />
       <HomeTechStack />
+      <HomeWorkExperience />
       <HomeProjects />
       <HomeSocials />
       <HomeContact />
