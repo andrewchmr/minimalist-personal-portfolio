@@ -41,6 +41,7 @@ const projects: Array<Project> = [
     description: 'Job board for finding hospitality jobs in Poland.',
     status: 'sold',
     icon: <div className="size-4 bg-[#FDB71C] rounded-sm p-1" />,
+    link: links.projects.ingastro,
   },
 ]
 
