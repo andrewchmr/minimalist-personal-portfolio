@@ -1,0 +1,87 @@
+export function LogoProjectPayTheAgent({ ...props }: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" {...props}>
+      <rect width="200" height="200" rx="40" fill="#0a0a0a" />
+      <line
+        x1="100"
+        y1="45"
+        x2="100"
+        y2="20"
+        stroke="#00ff88"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+      <circle cx="100" cy="16" r="7" fill="#00ff88" />
+      <rect
+        x="18"
+        y="82"
+        width="18"
+        height="36"
+        rx="6"
+        fill="#1a1a1a"
+        stroke="#00ff88"
+        strokeWidth="3"
+      />
+      <rect
+        x="164"
+        y="82"
+        width="18"
+        height="36"
+        rx="6"
+        fill="#1a1a1a"
+        stroke="#00ff88"
+        strokeWidth="3"
+      />
+      <rect
+        x="28"
+        y="45"
+        width="144"
+        height="115"
+        rx="28"
+        fill="#1a1a1a"
+        stroke="#00ff88"
+        strokeWidth="4"
+      />
+      <rect
+        x="42"
+        y="60"
+        width="116"
+        height="76"
+        rx="14"
+        fill="#111"
+        stroke="#00ff88"
+        strokeWidth="2"
+        opacity="0.6"
+      />
+      <text
+        x="75"
+        y="98"
+        textAnchor="middle"
+        fontFamily="monospace"
+        fontWeight="900"
+        fontSize="40"
+        fill="#00ff88"
+      >
+        $
+      </text>
+      <text
+        x="125"
+        y="98"
+        textAnchor="middle"
+        fontFamily="monospace"
+        fontWeight="900"
+        fontSize="40"
+        fill="#00ff88"
+      >
+        $
+      </text>
+      <path
+        d="M80 115 Q100 125 120 115"
+        stroke="#00ff88"
+        strokeWidth="4"
+        strokeLinecap="round"
+        fill="none"
+      />
+    </svg>
+  )
+}

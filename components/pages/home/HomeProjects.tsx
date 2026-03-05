@@ -1,6 +1,6 @@
 import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
-import { LogoSleepCalculator } from '@/components/logos/projects/LogoSleepCalculator'
+import { LogoProjectPayTheAgent } from '@/components/logos/projects/LogoProjectPayTheAgent'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -16,6 +16,13 @@ interface Project {
 
 const projects: Array<Project> = [
   {
+    name: 'PayTheAgent.ai',
+    description: 'Job board where companies hire AI agents as real team members.',
+    status: 'active',
+    icon: <LogoProjectPayTheAgent className="rounded-sm" />,
+    link: links.projects.paytheagent,
+  },
+  {
     name: 'ExtReviewBot',
     description: 'Browser extension review tracking & analytics.',
     status: 'active',
@@ -28,13 +35,6 @@ const projects: Array<Project> = [
     status: 'active',
     icon: <LogoKavalerka />,
     link: links.projects.kavalerka,
-  },
-  {
-    name: 'Sleep Calculator',
-    description: 'Find out the perfect bedtime or wake up time to rise feeling energized.',
-    status: 'active',
-    icon: <LogoSleepCalculator className="rounded-sm" />,
-    link: links.projects.sleepcalculator,
   },
   {
     name: 'InGastro.pl',
