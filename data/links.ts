@@ -3,6 +3,7 @@ export const links = {
   calcom: 'https://cal.com/andrewchmr',
   projects: {
     paytheagent: 'https://www.paytheagent.ai/',
+    madeiraflightrisk: 'https://madeiraflightrisk.com',
     kavalerka: 'https://kavalerka.pl',
     extreviewbot: 'https://extreviewbot.com',
     ingastro:

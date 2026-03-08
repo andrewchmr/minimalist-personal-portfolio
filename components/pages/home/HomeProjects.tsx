@@ -1,6 +1,7 @@
 import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
-import { LogoProjectPayTheAgent } from '@/components/logos/projects/LogoProjectPayTheAgent'
+import { LogoProjectMadeiraFlightRisk } from '@/components/logos/projects/LogoProjectMadeiraFlightRisk'
+//import { LogoProjectPayTheAgent } from '@/components/logos/projects/LogoProjectPayTheAgent'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
 import { links } from '@/data/links'
@@ -16,12 +17,19 @@ interface Project {
 
 const projects: Array<Project> = [
   {
-    name: 'PayTheAgent.ai',
-    description: 'Job board where companies hire AI agents as real team members.',
+    name: 'Madeira Flight Risk',
+    description: 'Will my flight to Funchal land? Live wind disruption risk for FNC airport.',
     status: 'active',
-    icon: <LogoProjectPayTheAgent className="rounded-sm" />,
-    link: links.projects.paytheagent,
+    icon: <LogoProjectMadeiraFlightRisk className="size-4" />,
+    link: links.projects.madeiraflightrisk,
   },
+  // {
+  //   name: 'PayTheAgent.ai',
+  //   description: 'Job board where companies hire AI agents as real team members.',
+  //   status: 'active',
+  //   icon: <LogoProjectPayTheAgent className="rounded-sm" />,
+  //   link: links.projects.paytheagent,
+  // },
   {
     name: 'ExtReviewBot',
     description: 'Browser extension review tracking & analytics.',
