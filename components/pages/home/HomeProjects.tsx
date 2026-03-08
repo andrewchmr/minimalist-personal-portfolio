@@ -18,7 +18,7 @@ interface Project {
 const projects: Array<Project> = [
   {
     name: 'Madeira Flight Risk',
-    description: 'Will my flight to Funchal land? Live wind disruption risk for FNC airport.',
+    description: 'Live weather disruption risk for FNC airport.',
     status: 'active',
     icon: <LogoProjectMadeiraFlightRisk className="size-4" />,
     link: links.projects.madeiraflightrisk,
