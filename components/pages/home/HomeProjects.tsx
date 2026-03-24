@@ -1,6 +1,7 @@
 import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
 import { LogoProjectMadeiraFlightRisk } from '@/components/logos/projects/LogoProjectMadeiraFlightRisk'
+import { LogoProjectTurbulenceMap } from '@/components/logos/projects/LogoProjectTurbulenceMap'
 //import { LogoProjectPayTheAgent } from '@/components/logos/projects/LogoProjectPayTheAgent'
 import { ProjectCard } from '@/components/ProjectCard'
 import { SectionHeader } from '@/components/SectionHeader'
@@ -16,6 +17,13 @@ interface Project {
 }
 
 const projects: Array<Project> = [
+  {
+    name: 'Turbulence Map',
+    description: 'Live turbulence forecast & flight turbulence tracker.',
+    status: 'active',
+    icon: <LogoProjectTurbulenceMap className="size-4 rounded-sm" />,
+    link: links.projects.turbulencemap,
+  },
   {
     name: 'Madeira Flight Risk',
     description: 'Live weather disruption risk for FNC airport.',

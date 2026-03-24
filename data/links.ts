@@ -6,6 +6,7 @@ export const links = {
     madeiraflightrisk: 'https://madeiraflightrisk.com',
     kavalerka: 'https://kavalerka.pl',
     extreviewbot: 'https://extreviewbot.com',
+    turbulencemap: 'https://turbulencemap.live',
     ingastro:
       'https://www.indiehackers.com/post/how-i-sold-my-niche-job-board-for-13-500-046f1aa443',
   },
