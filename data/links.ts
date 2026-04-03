@@ -7,7 +7,7 @@ export const links = {
     kavalerka: 'https://kavalerka.pl',
     extreviewbot: 'https://extreviewbot.com',
     turbulencemap: 'https://turbulencemap.live',
-    flightstrike: 'https://flightstrike.eu/',
+    flightstrike: 'https://airportstrikes.eu/',
     ingastro:
       'https://www.indiehackers.com/post/how-i-sold-my-niche-job-board-for-13-500-046f1aa443',
   },

@@ -26,7 +26,7 @@ const projects: Array<Project> = [
     link: links.projects.madeiraflightrisk,
   },
   {
-    name: 'FlightStrike.eu',
+    name: 'AirportStrikes.eu',
     description: 'Live map of airport labour strikes across Europe.',
     status: 'active',
     icon: <LogoProjectFlightStrike className="size-4 rounded-sm" />,
