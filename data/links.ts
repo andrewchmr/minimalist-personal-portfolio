@@ -2,6 +2,7 @@ export const links = {
   email: 'andrewchmr@hey.com',
   calcom: 'https://cal.com/andrewchmr',
   projects: {
+    cmsbrew: 'https://cmsbrew.com',
     paytheagent: 'https://www.paytheagent.ai/',
     madeiraflightrisk: 'https://madeiraflightrisk.com',
     kavalerka: 'https://kavalerka.pl',

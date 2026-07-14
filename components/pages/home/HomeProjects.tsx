@@ -1,4 +1,5 @@
 import { LogoKavalerka } from '@/components/logos/projects/LogoKavalerka'
+import { LogoProjectCmsBrew } from '@/components/logos/projects/LogoProjectCmsBrew'
 import { LogoProjectExtReviewBot } from '@/components/logos/projects/LogoProjectExtReviewBot'
 import { LogoProjectFlightStrike } from '@/components/logos/projects/LogoProjectFlightStrike'
 import { LogoProjectMadeiraFlightRisk } from '@/components/logos/projects/LogoProjectMadeiraFlightRisk'
@@ -18,6 +19,13 @@ interface Project {
 }
 
 const projects: Array<Project> = [
+  {
+    name: 'CMS Brew',
+    description: 'Clients edit their live site in plain language via chat.',
+    status: 'active',
+    icon: <LogoProjectCmsBrew className="size-4" />,
+    link: links.projects.cmsbrew,
+  },
   {
     name: 'Madeira Flight Risk',
     description: 'Live weather disruption risk for FNC airport.',
