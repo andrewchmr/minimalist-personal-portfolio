@@ -1,5 +1,5 @@
 export const links = {
-  email: 'andrewchmr@hey.com',
+  email: 'hey@andrewchmr.com',
   calcom: 'https://cal.com/andrewchmr',
   projects: {
     cmsbrew: 'https://cmsbrew.com',
